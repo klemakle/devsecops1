@@ -1,0 +1,49 @@
+
+
+## Overview
+
+                    │       Analyzed Image         
+────────────────────┼──────────────────────────────
+  Target            │  devsecopslab:v3             
+    digest          │  66f2c5327531                
+    platform        │ linux/amd64                  
+    vulnerabilities │    0C     1H     0M     2L   
+    size            │ 72 MB                        
+    packages        │ 307                          
+
+
+## Packages and Vulnerabilities
+
+   0C     1H     0M     0L  glob 10.4.5
+pkg:npm/glob@10.4.5
+
+    ✗ HIGH CVE-2025-64756 [Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')]
+      https://scout.docker.com/v/CVE-2025-64756?s=github&n=glob&t=npm&vr=%3E%3D10.2.0%2C%3C10.5.0
+      Affected range : >=10.2.0                                      
+                     : <10.5.0                                       
+      Fixed version  : 11.1.0                                        
+      CVSS Score     : 7.5                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H  
+    
+
+   0C     0H     0M     2L  busybox 1.37.0-r19
+pkg:apk/alpine/busybox@1.37.0-r19?os_name=alpine&os_version=3.22
+
+    ✗ LOW CVE-2025-46394
+      https://scout.docker.com/v/CVE-2025-46394?s=alpine&n=busybox&ns=alpine&t=apk&osn=alpine&osv=3.22&vr=%3C1.37.0-r20
+      Affected range : <1.37.0-r20  
+      Fixed version  : 1.37.0-r20   
+    
+    ✗ LOW CVE-2024-58251
+      https://scout.docker.com/v/CVE-2024-58251?s=alpine&n=busybox&ns=alpine&t=apk&osn=alpine&osv=3.22&vr=%3C1.37.0-r20
+      Affected range : <1.37.0-r20  
+      Fixed version  : 1.37.0-r20   
+    
+
+
+3 vulnerabilities found in 2 packages
+  CRITICAL  0  
+  HIGH      1  
+  MEDIUM    0  
+  LOW       2  
+
